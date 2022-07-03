@@ -18,6 +18,7 @@ import com.nimbusds.jwt.SignedJWT;
  */
 public class JwtService {
 
+	//TODO: This should not be here.  It should be encrypted and loaded from env or vault
 	private static final String SECRET_KEY = "kdIDNK73Jhu&jj#$gRekld09kdIDNK73JhukdIDNK73Jhu";
 
 	
