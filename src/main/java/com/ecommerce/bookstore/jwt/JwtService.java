@@ -13,6 +13,9 @@ import com.nimbusds.jose.crypto.MACVerifier;
 import com.nimbusds.jwt.JWTClaimsSet;
 import com.nimbusds.jwt.SignedJWT;
 
+/**
+ * A sample JWT program to demonstrate create and validate a jwt token
+ */
 public class JwtService {
 
 	private static final String SECRET_KEY = "kdIDNK73Jhu&jj#$gRekld09kdIDNK73JhukdIDNK73Jhu";
